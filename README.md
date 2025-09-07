@@ -15,5 +15,8 @@
 
 ---
 
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/66ae725b-551c-40e4-b116-af3d34a0bfa2" />
+
+---
 ## 📜 라이선스
 MIT License © 2025

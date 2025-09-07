@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         sora delete patcher
 // @namespace    https://github.com/gurumnyang/
-// @version      0.1.1
+// @version      0.1.2
 // @description  소라 삭제 버그를 해결해주는 프로그램. solve sora delete method issue
 // @match        https://sora.chatgpt.com/*
 // @run-at       document-start
@@ -78,7 +78,7 @@
           const rawBody = initObj.body
           let parsed = rawBody;
           if (typeof rawBody === 'string') parsed = JSON.parse(rawBody);
-          if (parsed && parsed.is_archived === false) return originalFetch.apply(this, arguments);
+          if (!parsed || parsed.is_archived !== true) return originalFetch.apply(this, arguments);
 
           if ('body' in initObj) delete initObj.body;
 

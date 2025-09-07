@@ -8,6 +8,8 @@
 // @run-at       document-start
 // @inject-into  page
 // @grant        none
+// @updateURL   https://raw.githubusercontent.com/gurumnyang/sora-delete-patcher-userscript>/main/sora-delete-patcher.user.js
+// @downloadURL https://raw.githubusercontent.com/gurumnyang/sora-delete-patcher-userscript/main/sora-delete-patcher.user.js
 // ==/UserScript==
 
 /*

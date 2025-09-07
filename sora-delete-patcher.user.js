@@ -75,6 +75,11 @@
 
         if (TARGET_RE.test(absUrl) && methodUpper === 'POST') {
           const initObj = Object.assign({}, init || {});
+          const rawBody = initObj.body
+          let parsed = rawBody;
+          if (typeof rawBody === 'string') parsed = JSON.parse(rawBody);
+          if (parsed && parsed.is_archived === false) return originalFetch.apply(this, arguments);
+
           if ('body' in initObj) delete initObj.body;
 
           const mergedHeaders = mergeHeaders(

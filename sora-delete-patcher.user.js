@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         sora delete patcher
 // @namespace    https://github.com/gurumnyang/
-// @version      0.1.0
+// @version      0.1.1
 // @description  소라 삭제 버그를 해결해주는 프로그램. solve sora delete method issue
 // @match        https://sora.chatgpt.com/*
 // @run-at       document-start

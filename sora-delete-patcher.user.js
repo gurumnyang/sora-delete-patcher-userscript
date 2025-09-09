@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         sora delete patcher
 // @namespace    https://github.com/gurumnyang/
-// @version      0.1.2
+// @version      0.1.3
 // @description  소라 삭제 버그를 해결해주는 프로그램. solve sora delete method issue
 // @match        https://sora.chatgpt.com/*
 // @run-at       document-start
@@ -33,6 +33,9 @@
  \______/  \______/ |__/  |__/ \______/ |__/     |__/        |__/   \______/  \______/ |________/
 
  */
+
+alert("소라 삭제 버그가 해결되었습니다. 이제 유저스크립트를 사용하지 않아도 됩니다.");
+alert("Sora delete bug has been fixed. You no longer need to use this userscript.");
 
 
 (function inject() {

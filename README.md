@@ -4,7 +4,7 @@
 ![GitHub license](https://img.shields.io/github/license/gurumnyang/sora-delete-patcher-userscript?style=for-the-badge)
 
 # 소라 삭제 버그 해결됨. 쓰지마세요.
-# sora delete issue is solved
+# sora delete issue is solved. DO NOT USE 
 
 > 🛠️ **소라 이미지 삭제 버그를 해결하는 유저스크립트**  
 > Fixes the Sora frontend bug where POST should be DELETE.

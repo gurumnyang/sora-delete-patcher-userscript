@@ -3,8 +3,8 @@
 ![GitHub stars](https://img.shields.io/github/stars/gurumnyang/sora-delete-patcher-userscript?style=for-the-badge&color=yellow)
 ![GitHub license](https://img.shields.io/github/license/gurumnyang/sora-delete-patcher-userscript?style=for-the-badge)
 
-# 소라 삭제 버그 해결됨. 쓰지마세요.
-# sora delete issue is solved. DO NOT USE 
+# ~~소라 삭제 버그 해결됨. 쓰지마세요.~~
+버그가 재발했다구요? ㅋㅋㅅㅂ 부활시켜버리고
 
 > 🛠️ **소라 이미지 삭제 버그를 해결하는 유저스크립트**  
 > Fixes the Sora frontend bug where POST should be DELETE.
